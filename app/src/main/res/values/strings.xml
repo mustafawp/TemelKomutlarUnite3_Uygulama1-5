@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Unite 3 - Temel Komutlar</string>
+    <string name="info">Butona Tıkladığında, sonucu Sistem Çıkışı olarak atıyor.</string>
+    <string name="btnUyg1">Uygulama 1</string>
+    <string name="btnUyg2">Uygulama 2</string>
+    <string name="btnUyg3">Uygulama 3</string>
+    <string name="btnUyg4">Uygulama 4</string>
+    <string name="btnUyg5">Uygulama 5</string>
+</resources>
