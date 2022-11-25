@@ -13,7 +13,6 @@ public class sa extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg7_activity);
-
         EditText txt1 = findViewById(R.id.txt1);
         EditText txt2 = findViewById(R.id.txt2);
         Button giris = findViewById(R.id.button);
