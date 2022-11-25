@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Button uyg5 = findViewById(R.id.btnUyg5);
         Button uyg6 = findViewById(R.id.btnUyg6);
         Button uyg7 = findViewById(R.id.btnUyg7);
+
         uyg1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,26 +82,12 @@ public class MainActivity extends AppCompatActivity {
                 System.out.println("Sonuç: " + sonuc);
             }
         });
+
         uyg7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int x = 15;
-                int y = 5;
-                int toplama, cikarma, carpma, bolme, modalma, arttirma,azaltma;
-                toplama = x+y;
-                cikarma = x-y;
-                carpma = x*y;
-                bolme = x / y;
-                modalma = x % y;
-                x++;
-                y--;
-                System.out.println("Toplama: " + toplama);
-                System.out.println("Çıkarma: " + cikarma);
-                System.out.println("Çarpma: " + carpma);
-                System.out.println("Bölme: " + bolme);
-                System.out.println("Mod Alma: " + modalma);
-                System.out.println("Arttırma: " + x);
-                System.out.println("Azaltma: " + y);
+                Intent a = new Intent(MainActivity.this,sa.class);
+                startActivity(a);
             }
         });
     }
